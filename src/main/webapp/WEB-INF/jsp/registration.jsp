@@ -15,7 +15,7 @@
 <body>
     <h1>Registration Here</h1>
     <h2>Simple registration page</h2>
-    <form:form>
+    <form:form modelAttribute="registration">
         <table>
             <tr>
                 <td>Name:</td>
