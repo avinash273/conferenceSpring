@@ -19,4 +19,10 @@ public class userController {
         user.setAge(age);
         return user;
     }
+
+    @PostMapping("/user")
+    public User postUser(User user){
+        System.out.println("Firstname: " + user.getFirstname());
+        return user;
+    }
 }
