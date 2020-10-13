@@ -12,7 +12,7 @@ public class userController {
     @GetMapping("/user")
     public User getUser(@RequestParam(value = "firstname", defaultValue = "Avinash") String firstname,
                         @RequestParam(value = "lastname", defaultValue = "Shanker") String lastname,
-                        @RequestParam(value = "age", defaultValue =26) int age) {
+                        @RequestParam(value = "age", defaultValue ="26") int age) {
         User user = new User();
         user.setFirstname(firstname);
         user.setLastname(lastname);
