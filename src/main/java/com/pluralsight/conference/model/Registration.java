@@ -1,8 +1,11 @@
 package com.pluralsight.conference.model;
 
-public class Registration {
-    private String name;
+import javax.validation.constraints.NotEmpty;
 
+public class Registration {
+
+    @NotEmpty
+    private String name;
     public String getName() {
         return name;
     }
