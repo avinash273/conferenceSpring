@@ -4,7 +4,7 @@ import com.pluralsight.conference.model.Registration;
 import com.pluralsight.conference.model.User;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
-
+//need to redo this
 import javax.validation.Valid;
 
 @RestController
